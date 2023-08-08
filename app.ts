@@ -9,6 +9,6 @@ function handleClick(event: PointerEvent) {
    if(event.target?.tagName.toLowerCase() !== 'custom-dropdown') {
       document.body.querySelector('custom-dropdown')?.clearOptions();
    }
- }
+}
  
  document.body.addEventListener('click', (event) => handleClick(event));
